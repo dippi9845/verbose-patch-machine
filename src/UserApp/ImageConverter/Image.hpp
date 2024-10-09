@@ -36,7 +36,7 @@ class KernelReadableImage {
         /* TODO: */
 
     public:
-        KernelReadableImage();
+        KernelReadableImage(RawImage *image);
         ~KernelReadableImage();
 };
 
