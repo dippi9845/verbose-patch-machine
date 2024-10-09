@@ -6,7 +6,15 @@ int main() {
 
     pixel_t * fancy_image = (pixel_t *) malloc(sizeof(size_t) * 100 * 100);
 
-    /* some fancy initializations of image */
+    
+    for (size_t i = 0; i < x; i++) {
+        for (size_t j = 0; j < y; j++) {
+            
+            /* */
+        }
+        /* */
+    }
+    
     
     
     RawImage to_sew = RawImage(fancy_image, x, y);
