@@ -24,3 +24,7 @@ RawImage::~RawImage() {
         free(this->pixels);
     } 
 }
+
+KernelReadableImage::KernelReadableImage(RawImage * image) {
+    
+}
